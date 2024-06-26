@@ -1,0 +1,20 @@
+.heading {
+  position: fixed;
+  margin: -1.6px;
+  z-index: 1;
+}
+
+.blackBark {
+  position: static;
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  margin-top: auto;
+  font-size: 155px;
+  font-family: "Road Rage", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(230, 230, 230);
+}

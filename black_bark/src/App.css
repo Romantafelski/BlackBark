@@ -1,0 +1,8 @@
+.background {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    filter: sepia(100%) saturate(300%) brightness(-70%) hue-rotate(180deg) grayscale(0)
+    opacity(50%);
+}

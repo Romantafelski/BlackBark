@@ -1,0 +1,118 @@
+.blackBark {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bbText {
+  margin-top: auto;
+  font-size: 7vw;
+  font-family: "Road Rage", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(230, 230, 230);
+  margin-right: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 42vh;
+    width: auto;
+}
+
+.heading {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+
+.item {
+  font-size: 4vw;
+  font-family: "Road Rage", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  border: none;
+  background: none;
+  color: rgb(230, 230, 230);
+  width: 9vw;
+  height: 8vh;
+}
+
+.item:hover {
+  background-color: rgb(44, 44, 44);
+}
+
+#about {
+  margin-right: 2px;
+}
+
+.hours {
+  position: fixed;
+  left: 1%;
+  top: 1%;
+  background: none;
+  font-size: 2vw;
+  font-family: "Road Rage", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(230, 230, 230);
+}
+
+.day {
+  margin: auto;
+  display: flex;
+  justify-content: left;
+}
+
+.address {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  background: none;
+  font-size: 2vw;
+  font-family: "Road Rage", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(230, 230, 230);
+}
+.add {
+  display: flex;
+  justify-content: right;
+  margin: auto;
+}
+
+.socials {
+    display: block;
+    position: fixed;
+    bottom: 1px;
+    left: 8px;
+}
+
+.followUs {
+    font-family: "Road Rage", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(230, 230, 230);
+    font-size: 29px;
+    margin-bottom: 3px;
+}
+
+.socialImages {
+  display: inline-block;
+}
+
+.fb {
+  height: 30px;
+  min-height: 20px;
+  margin-right: 8px;
+  border-radius: 25%;
+}
+
+.insta {
+  height: 30px;
+  min-height: 20px;
+  border-radius: 25%;
+}

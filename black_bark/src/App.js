@@ -1,23 +1,23 @@
-import Home from "./Home/Home";
-import About from "./About/About";
-import Menu from "./Menu/Menu";
+import Home from "./Pages/Home/Home"
+import Menu from "./Pages/Menu/Menu"
+import About from "./Pages/About/About"
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Background from "./Images/Background.jpg";
+import Background from "./Components/Images/Background.jpg";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <img className="background" src={Background} />
-      <div className="tint"></div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </Router>
-    </div>
+     <div className="App">
+        <img className="background" src={Background} />
+        <div className="tint"></div>
+        <Router>
+           <Routes>
+              <Route className="home" path="/" element={<Home />} />
+              <Route className="menu" path="/menu" element={<Menu />} />
+              <Route className="about" path="/about" element={<About />} />
+           </Routes>
+        </Router>
+     </div>
   );
 }
 

@@ -1,0 +1,15 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rico {
+    width: 15vw;
+    height: 40vh;
+    grid-column: 2;
+}
+.jon {
+    width: 15vw;
+    height: 40vh;
+}

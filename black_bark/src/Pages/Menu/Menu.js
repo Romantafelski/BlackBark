@@ -1,12 +1,12 @@
 import React from "react";
-import Heading from "../Main/Main";
+import Main from "../../Components/Main/Main";
 
 
 
 function Menu() {
     return (
         <div>
-          <Heading className="heading" />
+          <Main className="heading" />
         </div>
       );
 }

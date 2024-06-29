@@ -1,0 +1,33 @@
+.grid-container {
+   display: grid;
+   gap: 20vh;
+   font-size: 2vi;
+   position: fixed;
+}
+.add {
+   display: flex;
+   justify-content: left;
+   margin: auto;
+}
+
+
+.label {
+      margin: auto;
+   display: flex;
+   justify-content: left;
+   font-weight: 100;
+   text-decoration: underline;
+}
+
+#socImage {
+   height: 40px;
+   width: 40px;
+   min-height: 20px;
+   border-radius: 25%;
+}
+
+#handle {
+   margin-top: 4px;
+}
+
+

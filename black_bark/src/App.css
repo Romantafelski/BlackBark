@@ -1,14 +1,21 @@
-.background {
-  position: fixed;
-  z-index: -1;
-  height: 100vh;
-  width: 100vw;
+body {
+     font-family: "Road Rage", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   color: rgb(230, 230, 230);
 }
 
+.background {
+   position: fixed;
+   z-index: -1;
+   height: 100vh;
+   width: 100vw;
+}
 .tint {
-  position: fixed;
-  background-color: black;
-  height: 100vh;
-  width: 100vw;
-  opacity: 50%;
+   position: fixed;
+   z-index: -1;
+   background-color: black;
+   height: 100vh;
+   width: 100vw;
+   opacity: 50%;
 }

@@ -1,0 +1,32 @@
+.heading {
+   z-index: 2;
+}
+
+.links {
+   position: fixed;
+   top: 0%;
+   right: 0%;
+   z-index: auto;
+}
+
+.item {
+   font-size: 3.2vi;
+   font-family: "Road Rage", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   border: none;
+   background: none;
+   color: rgb(230, 230, 230);
+   min-width: 5vw;
+   width: 7.2vw;
+   min-height: 30px;
+   height: 4vw;
+}
+
+.item:hover {
+   background-color: rgb(44, 44, 44);
+}
+
+#about {
+   margin-right: 2px;
+}

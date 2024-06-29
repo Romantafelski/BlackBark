@@ -10,7 +10,7 @@
 }
 
 .item {
-   font-size: 3.2vi;
+   font-size: 2.85vi;
    font-family: "Road Rage", sans-serif;
    font-style: normal;
    font-weight: normal;
@@ -18,7 +18,7 @@
    background: none;
    color: rgb(230, 230, 230);
    min-width: 5vw;
-   width: 7.2vw;
+   width: 7.5vw;
    min-height: 30px;
    height: 4vw;
 }

@@ -1,22 +1,24 @@
 .grid-container {
-   display: grid;
-   gap: 20vh;
-   font-size: 2vi;
-   position: fixed;
+  display: grid;
+  gap: 20vh;
+  font-size: 2vi;
+  position: fixed;
 }
-.add {
-   display: flex;
-   justify-content: left;
-   margin: auto;
-}
-
 
 .label {
-      margin: auto;
+   margin: auto;
    display: flex;
    justify-content: left;
    font-weight: 100;
    text-decoration: underline;
+}
+
+.add {
+   display: flex;
+   justify-content: left;
+   margin: auto;
+   color: rgb(230, 230, 230);
+  text-decoration: none;
 }
 
 #socImage {
@@ -31,3 +33,20 @@
 }
 
 
+#addLink {
+   color:rgb(230, 230, 230);
+   text-decoration: none;
+}
+
+#addLink :hover {
+   color: rgb(0, 0, 140);
+   text-decoration: underline;
+}
+
+h2 {
+   text-decoration: underline;
+}
+
+p {
+   text-decoration: none;
+}

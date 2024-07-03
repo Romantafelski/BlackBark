@@ -12,6 +12,7 @@ function Home() {
          <div className="info">
             <h1 className="blackBark">Black Bark BBQ</h1>
             <img src={Logo} className="logo" />
+            <h2 className="soon">Coming soon to Gilbert, AZ</h2>
          </div>
       </div>
    );

@@ -43,5 +43,7 @@
 .soon {
    font-size: 5vw;
    text-decoration: none;
+   font-style: normal;
+   font-weight: 100;
 }
 

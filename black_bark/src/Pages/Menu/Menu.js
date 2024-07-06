@@ -7,7 +7,7 @@ function Menu() {
   return (
     <div className="menuPage">
       <Heading />
-      <Main />>
+      <Main />
       <h1 className="menuTitle">Menu</h1>
     </div>
   );

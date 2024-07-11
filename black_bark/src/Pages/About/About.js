@@ -7,7 +7,7 @@ import Jon from "./Jon.jpg"
 
 function About() {
   return (
-     <div className="about-grid-container">
+     <div className="about">
         <Main />
         <Heading />
         <div>

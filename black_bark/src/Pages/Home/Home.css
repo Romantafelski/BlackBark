@@ -1,49 +1,40 @@
-.grid-container-home {
-   display: grid;
-   grid-template-columns: 3;
-   grid-template-rows: 5;
-}
-
-
-.heading {
-   position: fixed;
-   top: 0%;
-}
-
-.main {
-   position: fixed;
-   top: 0%;
+.background {
+   height: 100vh;
+   width: 100%;
+   filter: brightness(60%);
+   z-index: 1;
 }
 
 .info {
    display: flex;
    flex-direction: column;
    align-items: center;
-   grid-row: 1;
-   z-index: -1;
+   gap: 12px;
+   margin-left: 25vw;
+   margin-right: 25vw;
+   z-index: 2;
 }
 
 .blackBark {
-  font-size: 6vw;
-  font-family: "Road Rage", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  color: rgb(230, 230, 230);
-  margin-top: auto;
-  margin-bottom: auto;
-
+   font-size: 7vw;
+   font-family: "Road Rage", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   color: rgb(230, 230, 230);
+   margin-top: auto;
+   margin-bottom: -55px;
+   padding-bottom: 30px;
 }
 .logo {
-  height: auto;
-  width: 29vw;
-  rotate: -1deg;
-  margin-top: -120px;
+   height: auto;
+   width: 25vw;
+   rotate: -1deg;
+   z-index: 2;
 }
 
 .soon {
-   font-size: 5vw;
+   font-size: 6vw;
    text-decoration: none;
    font-style: normal;
    font-weight: 100;
 }
-

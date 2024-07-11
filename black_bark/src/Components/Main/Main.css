@@ -1,41 +1,23 @@
-.grid-container {
-  display: grid;
-  gap: 20vh;
-  font-size: 2vi;
-  position: fixed;
+.businessInfo {
+   font-size: clamp(15px, 2.5vw, 2.5vw);
+   background-color: rgb(15, 15, 15);
+   margin-top: -4px;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
 }
 
 .label {
    margin: auto;
    display: flex;
-   justify-content: left;
    font-weight: 100;
    text-decoration: underline;
 }
 
-.add {
-   display: flex;
-   justify-content: left;
-   margin: auto;
-   color: rgb(230, 230, 230);
-  text-decoration: none;
-}
-
-#socImage {
-   height: 40px;
-   width: 40px;
-   min-height: 20px;
-   border-radius: 25%;
-}
-
-#handle {
-   margin-top: 4px;
-}
-
-
 #addLink {
-   color:rgb(230, 230, 230);
+   color: rgb(230, 230, 230);
    text-decoration: none;
+   text-align: center;
 }
 
 #addLink :hover {
@@ -43,10 +25,30 @@
    text-decoration: underline;
 }
 
-h2 {
-   text-decoration: underline;
+.details {
+   display: flex;
+   margin: auto;
+   color: rgb(230, 230, 230);
+   text-decoration: none;
+   font-size: clamp(1.1vw, 1.3vw, 1.3vw);
 }
 
-p {
+#socImage {
+   height: clamp(15px, 3.5vh, 3.5vh);
+   width: auto;
+   min-height: 20px;
+   border-radius: 25%;
+}
+
+.soc {
+   display: flex;
+   margin: auto;
+   color: rgb(230, 230, 230);
    text-decoration: none;
+}
+
+#handle {
+   display: flex;
+   align-items: center;
+   font-size: clamp(15px, 3.5vh, 5vh);
 }

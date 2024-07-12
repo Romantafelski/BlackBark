@@ -24,12 +24,11 @@
 }
 .logo {
    position: absolute;
-   top: 20px;
+   top: 10px;
    height: auto;
-   width: 25vw;
-   rotate: -2deg;
+   width: 15vw;
    z-index: 2;
-   margin-bottom: -200px;
+   rotate: -.25deg;
 }
 
 .soon {

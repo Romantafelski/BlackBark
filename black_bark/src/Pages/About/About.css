@@ -1,16 +1,57 @@
-.about-grid-container {
-    display: grid;
-    grid-template-columns: 12;
-    grid-template-rows: 4;
+.about {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.aboutTitle {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   z-index: 3;
+   margin-top: auto;
+   display: flex;
+   align-items: center;
+   font-size: 6vi;
+   font-weight: 100;
+   text-decoration: underline 7px;
+}
+
+.owners {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   z-index: 3;
+   top: 250px;
 }
 
 .rico {
-    height: 25vh;
-    width: auto;
-    border-radius: 10%;
+   display: flex;
+   flex-direction: row;
+   align-items: start;
 }
+
+p {
+   font-size: clamp(20px, 1.8vw, 1.8vw);
+   width: 28vw;
+   margin-left: 40px;
+   margin-top: -5px;
+}
+
+.ricoImage {
+   height: 25vh;
+   width: auto;
+   border-radius: 10%;
+   margin-bottom: 60px;
+}
+
 .jon {
-    height: 25vh;
-    width: auto;
-    border-radius: 10%;
+       display: flex;
+   flex-direction: row;
+   align-items: start;
+}
+.jonImage {
+   height: 25vh;
+   width: auto;
+   border-radius: 10%;
 }

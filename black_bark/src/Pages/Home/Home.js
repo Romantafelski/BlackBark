@@ -2,19 +2,16 @@ import React from "react";
 import "./Home.css";
 import Main from "../../Components/Main/Main";
 import Heading from "../../Components/Heading/Heading";
-import Logo from "../../Components/Images/Logo.jpg";
-import Background from "../../Components/Images/Background.jpg";
+import Logo from "../../Components/Images/Logo.png";
 
 function Home() {
    return (
       <div className="home">
-         <img className="background" src={Background} />
+         <Main />
          <div className="info">
-            <h1 className="blackBark">Black Bark BBQ</h1>
             <img src={Logo} className="logo" />
             <h2 className="soon">Coming soon to Gilbert, AZ</h2>
          </div>
-         <Main />
          <Heading />
       </div>
    );

@@ -9,6 +9,8 @@
 
 .label {
    margin: auto;
+   margin-left: 10px;
+   margin-right: 10px;
    display: flex;
    font-weight: 100;
    text-decoration: underline;
@@ -31,6 +33,8 @@
    color: rgb(230, 230, 230);
    text-decoration: none;
    font-size: clamp(1.1vw, 1.3vw, 1.3vw);
+      margin-left: 10px;
+   margin-right: 10px;
 }
 
 #socImage {

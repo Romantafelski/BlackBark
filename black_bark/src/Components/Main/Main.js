@@ -5,7 +5,7 @@ import Facebook from "../Images/Facebook.png";
 
 function Main() {
   return (
-    <div className="grid-container">
+    <div className="infoColumn">
       <div className="hours">
         <h2 className="label">Hours</h2>
         <p className="add">Monday-Friday 11am-9pm</p>

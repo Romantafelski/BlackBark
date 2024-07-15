@@ -8,8 +8,6 @@ import "./App.css";
 function App() {
   return (
      <div className="App">
-        <img className="background" src={Background} />
-        <div className="tint"></div>
         <Router>
            <Routes>
               <Route className="home" path="/" element={<Home />} />

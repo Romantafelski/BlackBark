@@ -5,11 +5,11 @@ import Heading from "../../Components/Heading/Heading";
 
 function Menu() {
   return (
-    <div className="menuPage">
-      <Heading />
-      <Main />
-      <h1 className="menuTitle">Menu</h1>
-    </div>
+     <div className="menuPage">
+        <Main />
+        <Heading />
+        <h1 className="menuTitle">Menu</h1>
+     </div>
   );
 }
 

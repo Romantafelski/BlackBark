@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .label {
   margin: auto;
   display: flex;
@@ -40,6 +41,30 @@
 #addLink {
   color: rgb(230, 230, 230);
   text-decoration: none;
+=======
+.businessInfo {
+   font-size: clamp(15px, 2.5vw, 2.5vw);
+   background-color: rgb(15, 15, 15);
+   margin-top: -4px;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.label {
+   margin: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+   display: flex;
+   font-weight: 100;
+   text-decoration: underline;
+}
+
+#addLink {
+   color: rgb(230, 230, 230);
+   text-decoration: none;
+   text-align: center;
+>>>>>>> 99b5d8410caa5689fb5dd4a991204e756492e763
 }
 
 #addLink :hover {
@@ -47,10 +72,41 @@
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 h2 {
   text-decoration: underline;
 }
 
 p {
   text-decoration: none;
+=======
+.details {
+   display: flex;
+   margin: auto;
+   color: rgb(230, 230, 230);
+   text-decoration: none;
+   font-size: clamp(1.1vw, 1.3vw, 1.3vw);
+      margin-left: 10px;
+   margin-right: 10px;
+}
+
+#socImage {
+   height: clamp(15px, 3.5vh, 3.5vh);
+   width: auto;
+   min-height: 20px;
+   border-radius: 25%;
+}
+
+.soc {
+   display: flex;
+   margin: auto;
+   color: rgb(230, 230, 230);
+   text-decoration: none;
+}
+
+#handle {
+   display: flex;
+   align-items: center;
+   font-size: clamp(15px, 3.5vh, 5vh);
+>>>>>>> 99b5d8410caa5689fb5dd4a991204e756492e763
 }

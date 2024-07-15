@@ -10,7 +10,7 @@
 }
 
 .item {
-   font-size: 2.85vi;
+   font-size: clamp(20px, 2.85vw, 2.85vw);
    font-family: "Road Rage", sans-serif;
    font-style: normal;
    font-weight: normal;

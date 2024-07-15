@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   font-family: "Road Rage", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -19,3 +20,10 @@ body {
   width: 100vw;
   opacity: 50%;
 }
+=======
+     font-family: "Road Rage", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   color: rgb(230, 230, 230);
+}
+>>>>>>> 99b5d8410caa5689fb5dd4a991204e756492e763

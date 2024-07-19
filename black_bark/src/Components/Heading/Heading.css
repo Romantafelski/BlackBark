@@ -1,12 +1,8 @@
-.heading {
-   z-index: 2;
-}
-
 .links {
    position: fixed;
    top: 0%;
    right: 0%;
-   z-index: auto;
+   z-index: 1;
 }
 
 .item {

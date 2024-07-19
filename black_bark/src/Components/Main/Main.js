@@ -6,7 +6,7 @@ import Background from "../../Components/Images/Background.jpg";
 
 function Main() {
    return (
-      <div>
+      <div className="main">
          <img className="background" src={Background} />
          <div className="businessInfo">
             <div className="hours">
@@ -37,6 +37,7 @@ function Main() {
             <div>
                <h2 className="label">Contact us</h2>
             </div>
+
          </div>
       </div>
    );

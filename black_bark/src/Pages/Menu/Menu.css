@@ -1,15 +1,40 @@
 .menuPage {
-    display: grid;
-    grid-template-columns: 5;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 25px;
+   letter-spacing: 2px;
+}
+.menuTitle {
+   margin-top: auto;
+   font-size: 6vi;
+   font-weight: 100;
+   z-index: 1;
 }
 
-.menuTitle {
-    position: fixed;
-    left: 45%;
-    margin-top: auto;
-    display: flex;  
-    align-items: center;
-    font-size: 6vi;
-    font-weight: 100;
-    text-decoration: underline 7px;
+.menuItems {
+   display: flex;
+   flex-direction: row;
+   z-index: 2;
+}
+.column1 {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+}
+
+.column2 {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   grid-column: 2;
+}
+
+.items {
+   margin-bottom: -20px;
+}
+
+
+#itemName {
+   margin-bottom: -41px;
 }

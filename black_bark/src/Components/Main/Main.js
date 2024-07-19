@@ -5,6 +5,15 @@ import Facebook from "../Images/Facebook.png";
 import Background from "../../Components/Images/Background.jpg";
 
 function Main() {
+<<<<<<< HEAD
+  return (
+    <div className="infoColumn">
+      <div className="hours">
+        <h2 className="label">Hours</h2>
+        <p className="add">Monday-Friday 11am-9pm</p>
+        <p className="add">Saturday 11am-10pm</p>
+        <p className="add">Sunday 11am-9pm</p>
+=======
    return (
       <div className="main">
          <img className="background" src={Background} />
@@ -39,6 +48,7 @@ function Main() {
             </div>
 
          </div>
+>>>>>>> 99b5d8410caa5689fb5dd4a991204e756492e763
       </div>
    );
 }

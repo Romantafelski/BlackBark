@@ -12,9 +12,9 @@ function Home() {
       <div className="home">
          <Main />
          <div className="info">
-         <h1>Black Bark BBQ</h1>
+         <h1 className="blackBark">Black Bark BBQ</h1>
             <img src={BLogo} className="logo" />
-            <h3>Est. AZ 2024</h3>
+            <h3 className="est">Est. AZ 2024</h3>
             <h2 className="soon">Coming soon to Gilbert, AZ</h2>
          </div>
          <Heading />

@@ -34,7 +34,7 @@ function Main() {
                   <img src={Facebook} id="socImage" /> @Kingsofque
                </p>
             </div>
-            <div>
+            <div className="contact">
                <h2 className="label">Contact us</h2>
             </div>
 

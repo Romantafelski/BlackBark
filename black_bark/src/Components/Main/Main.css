@@ -6,8 +6,11 @@
    font-size: clamp(15px, 2.5vw, 2.5vw);
    background-color: rgb(15, 15, 15);
    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
    width: 100%;
-   height: 30vh;
+   height: auto;
+   font-size: 60px;
 }
 
 .label {
@@ -19,24 +22,26 @@
 #addLink {
    color: rgb(230, 230, 230);
    text-decoration: none;
+   width: 17vw;
+   background: none;
 }
 
 #addLink :hover {
-  color: rgb(202, 74, 224);
-  text-decoration: underline;
+   color: rgb(202, 74, 224);
+   text-decoration: underline;
+   background: none;    
 }
 
 .details {
    margin: auto;
    color: rgb(230, 230, 230);
    text-decoration: none;
-   font-size: clamp(1.1vw, 1.3vw, 1.3vw);
+   font-size: clamp(2vw, 3vw, 3.1vw);
 }
 
 #socImage {
-   height: clamp(15px, 3.5vh, 3.5vh);
+   height: clamp(15px, 4vh, 4.2vh);
    width: auto;
-   min-height: 20px;
    border-radius: 25%;
 }
 
@@ -46,11 +51,9 @@
    align-items: center;
    color: rgb(230, 230, 230);
    text-decoration: none;
+   font-size: clamp(1.3vw, 2vw, 2vw);
 }
 
-#handle {
-   font-size: clamp(15px, 3.5vh, 5vh);
-}
 
 
 .main {
@@ -66,8 +69,4 @@
 
 #email {
    text-decoration: none;
-}
-
-.address {
-
 }

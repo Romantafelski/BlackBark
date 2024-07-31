@@ -15,7 +15,7 @@ function Home() {
          <h1 className="blackBark">Black Bark BBQ</h1>
             <img src={BLogo} className="logo" />
             <h3 className="est">Est. AZ 2024</h3>
-            <h2 className="soon">Coming soon</h2>
+            <h2 className="soon">Coming soon!</h2>
          </div>
          <Heading />
       </div>

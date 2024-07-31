@@ -2,7 +2,6 @@ import Home from "./Pages/Home/Home"
 import Menu from "./Pages/Menu/Menu"
 import About from "./Pages/About/About"
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Background from "./Components/Images/Background.jpg";
 import "./App.css";
 
 function App() {

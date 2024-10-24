@@ -13,7 +13,7 @@ h1 {
 
 .info {
    position: absolute;
-   top: 0px;
+   top: 30px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -28,11 +28,11 @@ h1 {
    font-weight: normal;
    color: rgb(230, 230, 230);
    margin-top: auto;
+   margin-bottom: 50px; 
 }
 .logo {
-   top: 10px;
    height: auto;
-   width: 20vw;
+   width: 30vw;
    z-index: 2;
    rotate: -.25deg;
    margin-top: -30px;
@@ -40,7 +40,7 @@ h1 {
 
 .est {
    margin-top: -85px;
-   font-size: 2.5vi;
+   font-size: 2.8vi;
    font-weight: 100;
 
 }
@@ -51,4 +51,54 @@ h1 {
    font-style: normal;
    font-weight: 100;
    margin-top: auto;
+}
+
+.socials {
+position:absolute;
+display: flex;
+flex-direction: column;
+align-items: start;
+left: 20px;
+bottom: 50px;
+
+}
+
+.label {
+   font-weight: 100;
+   text-decoration: underline;
+   font-size:6.5vi;
+}
+
+#socImage {
+   height: clamp(15px, 4vh, 4.2vh);
+   width: auto;
+   border-radius: 25%;
+}
+
+.soc {
+   color: rgb(230, 230, 230);
+   text-decoration: none;
+   font-size: clamp(1.3vw, 2vw, 2vw);
+}
+
+#handle {
+   font-size: 2.9vi;
+}
+
+.insta {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.facebook {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.background {
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0px;
 }

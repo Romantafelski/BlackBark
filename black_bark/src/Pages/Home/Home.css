@@ -1,14 +1,16 @@
+.background {
+   width: 100%;
+   height: auto;
+   position: fixed;
+   top: 0px;
+   filter: brightness(40%);
+}
+
 h1 {
    font-size: 8vi;
    font-weight: 100;
    margin-top: auto;
    margin-bottom: auto;
-}
-
-.background {
-   height: 100vh;
-   width: 100%;
-   filter: brightness(40%);
 }
 
 .info {
@@ -22,83 +24,71 @@ h1 {
 }
 
 .blackBark {
-   font-size: 6vw;
+   font-size: 120px;
    font-family: "Road Rage", sans-serif;
    font-style: normal;
    font-weight: normal;
    color: rgb(230, 230, 230);
-   margin-top: auto;
-   margin-bottom: 50px; 
 }
+
 .logo {
    height: auto;
-   width: 30vw;
+   width: 350px;
    z-index: 2;
-   rotate: -.25deg;
+   rotate: -0.25deg;
    margin-top: -30px;
 }
 
 .est {
-   margin-top: -85px;
-   font-size: 2.8vi;
+   margin-top: -75px;
+   font-size: 40px;
    font-weight: 100;
-
 }
 
 .soon {
-   font-size: 6vw;
+   font-size: 170px;
    text-decoration: none;
    font-style: normal;
    font-weight: 100;
-   margin-top: auto;
+   margin-top: -10px;
 }
 
-.socials {
-position:absolute;
-display: flex;
-flex-direction: column;
-align-items: start;
-left: 20px;
-bottom: 50px;
-
-}
-
-.label {
-   font-weight: 100;
-   text-decoration: underline;
-   font-size:6.5vi;
+.footerInfo {
+   margin-left: 20px;
 }
 
 #socImage {
-   height: clamp(15px, 4vh, 4.2vh);
+   height: 25px;
    width: auto;
    border-radius: 25%;
+   margin-right: 5px;
+   margin-left: 15px;
+}
+
+.footer {
+   position: relative;
 }
 
 .soc {
    color: rgb(230, 230, 230);
    text-decoration: none;
-   font-size: clamp(1.3vw, 2vw, 2vw);
+   font-size: 25px;
+}
+
+.follow {
+   font-size: 65px;
+   margin: auto;
+   margin-left: 15px;
+   margin-bottom: 3px;
+   text-decoration: underline;
+   text-decoration-thickness: 8px;
+   letter-spacing: 3px;
 }
 
 #handle {
-   font-size: 2.9vi;
-}
-
-.insta {
+   font-size: 30px;
    display: flex;
    flex-direction: row;
    align-items: center;
-}
-.facebook {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-}
-
-.background {
-   width: 100vw;
-   height: 100vh;
-   position: fixed;
-   top: 0px;
+   margin: 0px;
 }

@@ -1,30 +1,25 @@
 .background {
    width: 100%;
-   height: auto;
+   height: 100%;
    position: fixed;
    top: 0px;
    filter: brightness(40%);
-}
-
-h1 {
-   font-size: 8vi;
-   font-weight: 100;
-   margin-top: auto;
-   margin-bottom: auto;
+   z-index: -1;
 }
 
 .info {
-   position: absolute;
-   top: 30px;
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 12px;
    width: 100%;
+   font-size: 8vw;
 }
 
 .blackBark {
-   font-size: 120px;
+   position: relative;
+   top: auto;
+   margin: 0px;
+   font-size: 1em;
    font-family: "Road Rage", sans-serif;
    font-style: normal;
    font-weight: normal;
@@ -32,63 +27,60 @@ h1 {
 }
 
 .logo {
-   height: auto;
-   width: 350px;
-   z-index: 2;
+   height: 55vh;
+   width: auto;
    rotate: -0.25deg;
-   margin-top: -30px;
 }
 
 .est {
-   margin-top: -75px;
-   font-size: 40px;
+   font-size: 6vh;
    font-weight: 100;
+   margin-top: -9vh;
 }
 
-.soon {
-   font-size: 170px;
+.comingSoon {
+   margin: 0px;
+   font-size: 17vh;
    text-decoration: none;
    font-style: normal;
    font-weight: 100;
-   margin-top: -10px;
 }
 
 .footerInfo {
-   margin-left: 20px;
+   position: absolute;
+   bottom: 10px;
+   left: 10px;
+   display: flex;
+   flex-direction: column;
 }
 
-#socImage {
-   height: 25px;
-   width: auto;
-   border-radius: 25%;
-   margin-right: 5px;
-   margin-left: 15px;
-}
-
-.footer {
-   position: relative;
-}
-
-.soc {
-   color: rgb(230, 230, 230);
-   text-decoration: none;
-   font-size: 25px;
-}
-
-.follow {
-   font-size: 65px;
+.check {
    margin: auto;
-   margin-left: 15px;
-   margin-bottom: 3px;
-   text-decoration: underline;
-   text-decoration-thickness: 8px;
    letter-spacing: 3px;
+   font-size: 4.4em;
+   margin-bottom: 4px;
 }
 
-#handle {
-   font-size: 30px;
+.socialMedia {
    display: flex;
    flex-direction: row;
    align-items: center;
+}
+
+#socImage {
+   height: 55px;
+   width: auto;
+   border-radius: 25%;
+   margin-right: 15px;
+}
+
+.soc {
+   display: flex;
+   flex-direction: row;
+   margin-left: 0px;
+
+}
+
+p {
    margin: 0px;
 }

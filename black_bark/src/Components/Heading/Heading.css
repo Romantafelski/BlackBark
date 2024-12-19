@@ -18,6 +18,7 @@
    min-height: 30px;
    height: 4vw;
    letter-spacing: 2.25px;
+   margin-right: 4px;
 }
 
 .item:hover {

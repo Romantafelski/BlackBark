@@ -11,8 +11,10 @@ function Home() {
       <div>
          <div className="info">
             <h1 className="blackBark centerPage">Black Bark BBQ</h1>
-            <img src={BLogo} className="logo centerPage" />
-            <h3 className="est centerPage">Est. AZ 2024</h3>
+            <span className="imgAndEst">
+               <img src={BLogo} className="logo centerPage" />
+               <h3 className="est centerPage">Est. AZ 2024</h3>
+            </span>
             <h2 className="comingSoon centerPage">Coming soon!</h2>
             {/* <About /> */}
          </div>

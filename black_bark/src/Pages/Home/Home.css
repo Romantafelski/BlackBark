@@ -25,17 +25,26 @@
    font-weight: normal;
    color: rgb(230, 230, 230);
 }
+.imgAndEst {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   margin-bottom: 200px;
+}
 
 .logo {
-   height: 25vw;
-   width: auto;
+   width: clamp(25vw, 30vw, 35vw);
+   height: auto;
    rotate: -0.25deg;
+   margin: 0px;
 }
 
 .est {
-   font-size: 3vw;
+   position: relative;
+   font-size: clamp(2vw, 3vw, 3vw);
    font-weight: 100;
-   margin-top: -29px;
+   height: 1px;
+   padding: -130vw;
 }
 
 .comingSoon {
